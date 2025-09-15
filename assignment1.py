@@ -17,6 +17,6 @@ model = LinearGAM(
     s(3)
 )
 
-modelfit = model.gridsearch(x.values, y)
+modelFit = model.gridsearch(x.values, y)
 
 pred = model.predict(x)
